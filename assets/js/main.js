@@ -96,7 +96,7 @@ modalCloses.forEach((modalClose)=>{
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
-let swiper = new Swiper(".mySwiper", {
+let swiperPortfolio = new Swiper(".mySwipera", {
     cssMode: true,
     loop: true,
 
@@ -114,7 +114,17 @@ let swiper = new Swiper(".mySwiper", {
 
 
 /*==================== TESTIMONIAL ====================*/
+let swiperTestimonial = new Swiper(".mySwiperb", {
+    loop: true,
+    grabCursor:true,
+    spaceBetween:48,
 
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+  });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
